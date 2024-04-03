@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>extended_social_buttons</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <status>active</status>
+    <supplier>CS-Cart Support | alarionov</supplier>
+    <default_language>en</default_language>
+</addon>
