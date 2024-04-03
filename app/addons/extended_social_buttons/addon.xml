@@ -6,4 +6,39 @@
     <status>active</status>
     <supplier>CS-Cart Support | alarionov</supplier>
     <default_language>en</default_language>
+    <settings edition_type="ROOT,STOREFRONT">
+    <sections>
+    <section id="telegram">
+        <items>
+            <item id="telegram_enable">
+                <type>checkbox</type>
+                <default_value>Y</default_value>
+            </item>
+            <item id="telegram_comment_text">
+                <type>input</type>
+            </item>
+            <item id="telegram_size">
+                <type>selectbox</type>
+                <default_value>medium</default_value>
+                <variants>
+                    <item id="medium">
+                    </item>
+                    <item id="large">
+                    </item>
+                </variants>
+            </item>
+            <item id="telegram_display_button_text">
+                <type>selectbox</type>
+                <default_value>share</default_value>
+                <variants>
+                    <item id="none">
+                    </item>
+                    <item id="share">
+                    </item>
+                </variants>
+            </item>
+        </items>
+    </section>
+    </sections>
+</settings>
 </addon>
