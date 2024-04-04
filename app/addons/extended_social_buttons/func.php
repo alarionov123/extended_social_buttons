@@ -39,3 +39,11 @@ function fn_telegram_prepare_settings($settings, $page_type, $object_id, $object
 
     return $telegram_params;
 }
+
+function fn_viber_prepare_settings($settings, $page_type, $object_id, $object_type) {
+    $params = [
+        'text' => $settings['viber_text']
+    ];
+
+    return $params;
+}

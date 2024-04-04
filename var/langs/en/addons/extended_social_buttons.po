@@ -1,0 +1,61 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::extended_social_buttons"
+msgid "Extended social buttons"
+msgstr "Extended social buttons"
+
+msgctxt "Addons::description::extended_social_buttons"
+msgid "Adds the buttons for sharing products and pages in social media (Twitter, Facebook, etc.). Helps social networks and messengers to display better previews for the links to your site"
+msgstr "Adds the buttons for sharing products and pages in social media (Twitter, Facebook, etc.). Helps social networks and messengers to display better previews for the links to your site"
+
+msgctxt "SettingsSections::extended_social_buttons::telegram"
+msgid "Telegram"
+msgstr "Telegram"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_enable"
+msgid "Show Telegram button"
+msgstr "Show Telegram button"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_comment_text"
+msgid "Optional Comment"
+msgstr "Optional Comment"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_size"
+msgid "Button Size"
+msgstr "Button Size"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_display_button_text"
+msgid "Button Text"
+msgstr "Button Text"
+
+msgctxt "SettingsVariants::extended_social_buttons::telegram_size::medium"
+msgid "Medium"
+msgstr "Medium"
+
+msgctxt "SettingsVariants::extended_social_buttons::telegram_size::large"
+msgid "Large"
+msgstr "Large"
+
+msgctxt "SettingsVariants::extended_social_buttons::telegram_display_button_text::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::extended_social_buttons::telegram_display_button_text::share"
+msgid "Share"
+msgstr "Share"
+
+msgctxt "SettingsSections::extended_social_buttons::viber"
+msgid "Viber"
+msgstr "Viber"
+
+msgctxt "SettingsOptions::extended_social_buttons::viber_enable"
+msgid "Show Viber button"
+msgstr "Show Viber button"
+
+msgctxt "SettingsOptions::extended_social_buttons::viber_text"
+msgid "Promo text"
+msgstr "Promo text"
