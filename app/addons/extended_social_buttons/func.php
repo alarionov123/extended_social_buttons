@@ -7,16 +7,17 @@ function fn_get_provider_settings($page_type, $object_id) {
 
     $object_type = $page_type === 'products' ? 'product' : 'page';
     $provider_settings = [];
-    foreach ($addon_settings as $provider => $settings) {
-        if ($settings[$provider . '_enable'] === YesNo::NO) {
-            unset($addon_settings[$provider]);
-        }
+    foreach ($addon_settings['general']['social_settings'] as $provider => $setting_value) {
 
-        $func_name = 'fn_' . $provider . '_prepare_settings';
-
-        if (is_callable($func_name)) {
-            $provider_settings[$provider]['data'] = call_user_func($func_name, $settings, $page_type, $object_id, $object_type);
+        if ($setting_value === YesNo::NO) {
+            continue;
         }
+        $provider_settings[$provider] = $setting_value;
+//        $func_name = 'fn_' . $provider . '_prepare_settings';
+//
+//        if (is_callable($func_name)) {
+//            $provider_settings[$provider]['data'] = call_user_func($func_name, $settings, $page_type, $object_id, $object_type);
+//        }
 
     }
     return $provider_settings;

@@ -1,8 +1,9 @@
-{if $addons.extended_social_buttons.telegram_enable === 'Y' && $provider_settings.telegram.data}
-
-<script async src="https://telegram.org/js/telegram-widget.js?22" {$provider_settings.telegram.data nofilter} data-no-defer></script>
-
-<div hidden data-ca-social-buttons="telegram"
-     data-ca-social-buttons-src="//telegram.org/js/telegram-widget.js?22"></div>
-    {script src="js/addons/extended_social_buttons/providers/telegram.js" class="cm-ajax-force" cookie-name="telegram"}
+{if $addons.extended_social_buttons.social_settings.telegram === 'Y'}
+    <div class="telegram_extended_share">
+        <a id="telegram_extended_share_btn" target="_blank"><img src="{$images_dir}/addons/extended_social_buttons/telegram.svg" /></a>
+        <script data-no-defer>
+            document.getElementById('telegram_extended_share_btn')
+                .setAttribute('href',"https://telegram.me/share/url?url=" + encodeURIComponent(window.location.href));
+        </script>
+    </div>
 {/if}
