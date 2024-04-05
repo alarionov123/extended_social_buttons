@@ -59,3 +59,128 @@ msgstr "Show Viber button"
 msgctxt "SettingsOptions::extended_social_buttons::viber_text"
 msgid "Promo text"
 msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::vk_enable"
+msgid "Show VK button"
+msgstr "Show VK button"
+
+msgctxt "SettingsOptions::extended_social_buttons::vk_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::skype_enable"
+msgid "Show Skype button"
+msgstr "Show Skype button"
+
+msgctxt "SettingsOptions::extended_social_buttons::skype_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Show Facebook button"
+
+msgctxt "SettingsOptions::extended_social_buttons::facebook_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::odnoklassniki_enable"
+msgid "Show Odnoklassniki button"
+msgstr "Show Odnoklassniki button"
+
+msgctxt "SettingsOptions::extended_social_buttons::odnoklassniki_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::pintrest_enable"
+msgid "Show Pintrest button"
+msgstr "Show Pintrest button"
+
+msgctxt "SettingsOptions::extended_social_buttons::pintrest_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::linkedin_enable"
+msgid "Show Linkedin button"
+msgstr "Show Linkedin button"
+
+msgctxt "SettingsOptions::extended_social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Show Twitter button"
+
+msgctxt "SettingsOptions::extended_social_buttons::twitter_text"
+msgid "Promo text"
+msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::twitter_settings"
+msgid "Twitter settings"
+msgstr "Twitter settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::linkedin_settings"
+msgid "Linkedin settings"
+msgstr "Linkedin settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::pintrest_settings"
+msgid "Pintrest settings"
+msgstr "Pintrest settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::odnoklassniki_settings"
+msgid "Odnoklassniki settings"
+msgstr "Odnoklassniki settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::facebook_settings"
+msgid "Facebook settings"
+msgstr "Facebook settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::skype_settings"
+msgid "Skype settings"
+msgstr "Skype settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::vk_settings"
+msgid "VK settings"
+msgstr "VK settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::viber_settings"
+msgid "Viber settings"
+msgstr "Viber settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_settings"
+msgid "Telegram settings"
+msgstr "Telegram settings"
+
+
+msgctxt "SettingsOptions::extended_social_buttons::social_settings"
+msgid "These social buttons will appear on product pages"
+msgstr "These social buttons will appear on product pages"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::telegram"
+msgid "Telegram button"
+msgstr "Telegram button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::viber"
+msgid "Viber button"
+msgstr "Viber button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::twitter"
+msgid "Twitter button"
+msgstr "Twitter button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::odnoklassniki"
+msgid "Odnoklassniki button"
+msgstr "Odnoklassniki button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::linkedin"
+msgid "Linkedin button"
+msgstr "Linkedin button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::facebook"
+msgid "Facebook button"
+msgstr "Facebook button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::skype"
+msgid "Skype button"
+msgstr "Skype button"
+
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::vk"
+msgid "VK button"
+msgstr "VK button"
