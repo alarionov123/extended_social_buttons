@@ -5,9 +5,9 @@ use Tygh\Registry;
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 if ($mode === 'view') {
-    if (!empty($_REQUEST['product_id'])) {
+    if (!empty($_REQUEST['page_id'])) {
         $settings_pr = fn_get_provider_settings();
-        $display_on = Registry::get('settings.extended_social_buttons.general.social_pages.products');
+        $display_on = Registry::get('settings.extended_social_buttons.general.social_pages.pages');
 
         Tygh::$app['view']->assign('display_on', $display_on);
         Tygh::$app['view']->assign('settings_pr', $settings_pr);
