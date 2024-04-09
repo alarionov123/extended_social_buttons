@@ -10,6 +10,14 @@
         <sections>
             <section id="general">
                 <items>
+                    <item id="social_pages">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="pages"></item>
+                            <item id="products"></item>
+                        </variants>
+                        <default_value>#M#products=Y</default_value>
+                    </item>
                     <item id="social_settings">
                         <type>multiple checkboxes</type>
                         <variants>
@@ -21,45 +29,18 @@
                             <item id="facebook"></item>
                             <item id="skype"></item>
                             <item id="vk"></item>
+                            <item id="pinterest"></item>
                         </variants>
                         <default_value>telegram</default_value>
                     </item>
                     <item id="telegram_settings">
                         <type>header</type>
                     </item>
-                    <item id="telegram_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
                     <item id="telegram_comment_text">
                         <type>input</type>
                     </item>
-                    <item id="telegram_size">
-                        <type>selectbox</type>
-                        <default_value>medium</default_value>
-                        <variants>
-                            <item id="medium">
-                            </item>
-                            <item id="large">
-                            </item>
-                        </variants>
-                    </item>
-                    <item id="telegram_display_button_text">
-                        <type>selectbox</type>
-                        <default_value>share</default_value>
-                        <variants>
-                            <item id="none">
-                            </item>
-                            <item id="share">
-                            </item>
-                        </variants>
-                    </item>
                     <item id="viber_settings">
                         <type>header</type>
-                    </item>
-                    <item id="viber_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
                     </item>
                     <item id="viber_text">
                         <type>input</type>
@@ -67,71 +48,19 @@
                     <item id="twitter_settings">
                         <type>header</type>
                     </item>
-                    <item id="twitter_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
+                    <item id="twitter_hashtags">
+                        <type>input</type>
                     </item>
                     <item id="twitter_text">
                         <type>input</type>
                     </item>
-                    <item id="pintrest_settings">
-                        <type>header</type>
-                    </item>
-                    <item id="pintrest_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
-                    <item id="pintrest_text">
-                        <type>input</type>
-                    </item>
-                    <item id="facebook_settings">
-                        <type>header</type>
-                    </item>
-                    <item id="facebook_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
-                    <item id="facebook_text">
-                        <type>input</type>
-                    </item>
-                    <item id="skype_settings">
-                        <type>header</type>
-                    </item>
-                    <item id="skype_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
-                    <item id="skype_text">
-                        <type>input</type>
-                    </item>
-                    <item id="vk_settings">
-                        <type>header</type>
-                    </item>
-                    <item id="vk_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
-                    <item id="vk_text">
+                    <item id="twitter_via">
                         <type>input</type>
                     </item>
                     <item id="odnoklassniki_settings">
                         <type>header</type>
                     </item>
-                    <item id="odnoklassniki_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
                     <item id="odnoklassniki_text">
-                        <type>input</type>
-                    </item>
-                    <item id="twitter_settings">
-                        <type>header</type>
-                    </item>
-                    <item id="twitter_enable">
-                        <type>checkbox</type>
-                        <default_value>Y</default_value>
-                    </item>
-                    <item id="twitter_text">
                         <type>input</type>
                     </item>
                 </items>
