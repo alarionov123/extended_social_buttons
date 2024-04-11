@@ -123,3 +123,7 @@ msgstr "Pages"
 msgctxt "SettingsVariants::extended_social_buttons::social_pages::products"
 msgid "Products"
 msgstr "Products"
+
+msgctxt "Languages::extended_social_buttons.extended_share"
+msgid "Share"
+msgstr "Share"

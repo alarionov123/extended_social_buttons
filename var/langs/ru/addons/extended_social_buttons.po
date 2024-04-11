@@ -1,4 +1,4 @@
-sgid ""
+msgid ""
 msgstr ""
 "Project-Id-Version: cs-cart-latest\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,3 +127,7 @@ msgstr "Страницы"
 msgctxt "SettingsVariants::extended_social_buttons::social_pages::products"
 msgid "Products"
 msgstr "Товары"
+
+msgctxt "Languages::extended_social_buttons.extended_share"
+msgid "Поделиться"
+msgstr "Поделиться"
