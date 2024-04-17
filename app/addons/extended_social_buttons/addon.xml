@@ -30,6 +30,7 @@
                             <item id="skype"></item>
                             <item id="vk"></item>
                             <item id="pinterest"></item>
+                            <item id="whatsapp"></item>
                         </variants>
                         <default_value>telegram</default_value>
                     </item>

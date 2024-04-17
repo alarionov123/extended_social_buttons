@@ -84,6 +84,10 @@ msgctxt "SettingsVariants::extended_social_buttons::social_settings::skype"
 msgid "Skype button"
 msgstr "Кнопка Skype"
 
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::whatsapp"
+msgid "Skype button"
+msgstr "Кнопка WhatsApp"
+
 msgctxt "SettingsVariants::extended_social_buttons::social_settings::vk"
 msgid "VK button"
 msgstr "Кнопка VK"

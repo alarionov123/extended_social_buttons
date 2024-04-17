@@ -9,16 +9,28 @@ msgid "Extended social buttons"
 msgstr "Extended social buttons"
 
 msgctxt "Addons::description::extended_social_buttons"
-msgid "Integrates buttons to facilitate sharing of products and pages across various social media platforms like Twitter, Facebook, and others. Enhances the presentation of your site's links on social networks and messaging apps for improved visibility."
-msgstr "Integrates buttons to facilitate sharing of products and pages across various social media platforms like Twitter, Facebook, and others. Enhances the presentation of your site's links on social networks and messaging apps for improved visibility."
+msgid "Adds the buttons for sharing products and pages in social media (Twitter, Facebook, etc.). Helps social networks and messengers to display better previews for the links to your site"
+msgstr "Adds the buttons for sharing products and pages in social media (Twitter, Facebook, etc.). Helps social networks and messengers to display better previews for the links to your site"
+
+msgctxt "SettingsOptions::extended_social_buttons::telegram_enable"
+msgid "Show Telegram button"
+msgstr "Show Telegram button"
 
 msgctxt "SettingsOptions::extended_social_buttons::telegram_comment_text"
 msgid "Optional Comment"
 msgstr "Optional Comment"
 
+msgctxt "SettingsOptions::extended_social_buttons::viber_enable"
+msgid "Show Viber button"
+msgstr "Show Viber button"
+
 msgctxt "SettingsOptions::extended_social_buttons::viber_text"
 msgid "Promo text"
 msgstr "Promo text"
+
+msgctxt "SettingsOptions::extended_social_buttons::odnoklassniki_enable"
+msgid "Show Odnoklassniki button"
+msgstr "Show Odnoklassniki button"
 
 msgctxt "SettingsOptions::extended_social_buttons::odnoklassniki_text"
 msgid "Promo text"
@@ -31,6 +43,10 @@ msgstr "Promo text"
 msgctxt "SettingsOptions::extended_social_buttons::twitter_settings"
 msgid "Twitter settings"
 msgstr "Twitter settings"
+
+msgctxt "SettingsOptions::extended_social_buttons::linkedin_settings"
+msgid "Linkedin settings"
+msgstr "Linkedin settings"
 
 msgctxt "SettingsOptions::extended_social_buttons::pinterest_settings"
 msgid "Pinterest settings"
@@ -84,6 +100,10 @@ msgctxt "SettingsVariants::extended_social_buttons::social_settings::vk"
 msgid "VK button"
 msgstr "VK button"
 
+msgctxt "SettingsVariants::extended_social_buttons::social_settings::whatsapp"
+msgid "WhatsApp button"
+msgstr "WhatsApp button"
+
 msgctxt "SettingsVariants::extended_social_buttons::social_settings::pinterest"
 msgid "Pinterest button"
 msgstr "Pinterest button"
@@ -123,7 +143,3 @@ msgstr "Pages"
 msgctxt "SettingsVariants::extended_social_buttons::social_pages::products"
 msgid "Products"
 msgstr "Products"
-
-msgctxt "Languages::extended_social_buttons.extended_share"
-msgid "Share"
-msgstr "Share"
